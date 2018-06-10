@@ -1,0 +1,63 @@
+[DEBUG][ 2018-06-09 19:21:26,960][utils.py][utils][execute][90]: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[DEBUG][ 2018-06-09 19:21:26,960][utils.py][utils][execute][90]: (0.000) SELECT VERSION(); args=None
+[DEBUG][ 2018-06-09 19:21:27,019][utils.py][utils][execute][90]: (0.000) SHOW FULL TABLES; args=None
+[DEBUG][ 2018-06-09 19:21:27,029][utils.py][utils][execute][90]: (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[DEBUG][ 2018-06-09 19:21:39,109][utils.py][utils][execute][90]: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[DEBUG][ 2018-06-09 19:21:39,109][utils.py][utils][execute][90]: (0.000) SELECT VERSION(); args=None
+[DEBUG][ 2018-06-09 19:21:39,180][utils.py][utils][execute][90]: (0.000) SHOW FULL TABLES; args=None
+[DEBUG][ 2018-06-09 19:21:39,190][utils.py][utils][execute][90]: (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[ERROR][ 2018-06-09 19:23:11,733][basehttp.py][basehttp][log_message][124]: "POST /api/users/login HTTP/1.1" 500 72185
+[DEBUG][ 2018-06-09 19:24:28,996][utils.py][utils][execute][90]: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[DEBUG][ 2018-06-09 19:24:28,996][utils.py][utils][execute][90]: (0.000) SELECT VERSION(); args=None
+[DEBUG][ 2018-06-09 19:24:29,058][utils.py][utils][execute][90]: (0.000) SHOW FULL TABLES; args=None
+[DEBUG][ 2018-06-09 19:24:29,068][utils.py][utils][execute][90]: (0.010) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[DEBUG][ 2018-06-09 19:24:37,891][utils.py][utils][execute][90]: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[DEBUG][ 2018-06-09 19:24:37,892][utils.py][utils][execute][90]: (0.000) SELECT VERSION(); args=None
+[DEBUG][ 2018-06-09 19:24:37,897][utils.py][utils][execute][90]: (0.001) SELECT `msys_user`.`user_id`, `msys_user`.`password`, `msys_user`.`nike_name`, `msys_user`.`avatar_url`, `msys_user`.`time_created`, `msys_user`.`gender`, `msys_user`.`email`, `msys_user`.`telphone` FROM `msys_user` WHERE (`msys_user`.`password` = '12345678' AND `msys_user`.`user_id` = 'test123'); args=('12345678', 'test123')
+[INFO][ 2018-06-09 19:24:37,898][basehttp.py][basehttp][log_message][124]: "POST /api/users/login HTTP/1.1" 200 49
+[ERROR][ 2018-06-09 19:25:22,627][basehttp.py][basehttp][log_message][124]: "GET /api/users/test123 HTTP/1.1" 500 68144
+[DEBUG][ 2018-06-09 19:26:06,223][utils.py][utils][execute][90]: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[DEBUG][ 2018-06-09 19:26:06,223][utils.py][utils][execute][90]: (0.001) SELECT VERSION(); args=None
+[DEBUG][ 2018-06-09 19:26:06,282][utils.py][utils][execute][90]: (0.000) SHOW FULL TABLES; args=None
+[DEBUG][ 2018-06-09 19:26:06,282][utils.py][utils][execute][90]: (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[DEBUG][ 2018-06-09 19:26:10,191][utils.py][utils][execute][90]: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[DEBUG][ 2018-06-09 19:26:10,191][utils.py][utils][execute][90]: (0.000) SELECT VERSION(); args=None
+[DEBUG][ 2018-06-09 19:26:10,194][utils.py][utils][execute][90]: (0.001) SELECT `msys_user`.`user_id`, `msys_user`.`password`, `msys_user`.`nike_name`, `msys_user`.`avatar_url`, `msys_user`.`time_created`, `msys_user`.`gender`, `msys_user`.`email`, `msys_user`.`telphone` FROM `msys_user` WHERE `msys_user`.`user_id` = 'test123'; args=(u'test123',)
+[INFO][ 2018-06-09 19:26:10,196][basehttp.py][basehttp][log_message][124]: "GET /api/users/test123 HTTP/1.1" 200 276
+[DEBUG][ 2018-06-09 19:27:43,168][utils.py][utils][execute][90]: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[DEBUG][ 2018-06-09 19:27:43,170][utils.py][utils][execute][90]: (0.001) SELECT VERSION(); args=None
+[DEBUG][ 2018-06-09 19:27:43,173][utils.py][utils][execute][90]: (0.001) SELECT `msys_user`.`user_id`, `msys_user`.`password`, `msys_user`.`nike_name`, `msys_user`.`avatar_url`, `msys_user`.`time_created`, `msys_user`.`gender`, `msys_user`.`email`, `msys_user`.`telphone` FROM `msys_user` WHERE `msys_user`.`user_id` = 'test123'; args=('test123',)
+[INFO][ 2018-06-09 19:27:43,174][basehttp.py][basehttp][log_message][124]: "POST /api/auth/token_id HTTP/1.1" 200 335
+[ERROR][ 2018-06-09 19:29:17,986][basehttp.py][basehttp][log_message][124]: "GET /api/auth/verify HTTP/1.1" 500 982
+[DEBUG][ 2018-06-09 19:30:28,421][utils.py][utils][execute][90]: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+[DEBUG][ 2018-06-09 19:30:28,424][utils.py][utils][execute][90]: (0.001) SELECT VERSION(); args=None
+[DEBUG][ 2018-06-09 19:30:28,490][utils.py][utils][execute][90]: (0.000) SHOW FULL TABLES; args=None
+[DEBUG][ 2018-06-09 19:30:28,490][utils.py][utils][execute][90]: (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[DEBUG][ 2018-06-09 19:30:32,569][utils.py][utils][execute][90]: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[DEBUG][ 2018-06-09 19:30:32,569][utils.py][utils][execute][90]: (0.000) SELECT VERSION(); args=None
+[DEBUG][ 2018-06-09 19:30:32,578][utils.py][utils][execute][90]: (0.000) SELECT `msys_user`.`user_id`, `msys_user`.`password`, `msys_user`.`nike_name`, `msys_user`.`avatar_url`, `msys_user`.`time_created`, `msys_user`.`gender`, `msys_user`.`email`, `msys_user`.`telphone` FROM `msys_user` WHERE (`msys_user`.`password` = '12345678' AND `msys_user`.`user_id` = 'test123'); args=(u'12345678', u'test123')
+[INFO][ 2018-06-09 19:30:32,578][basehttp.py][basehttp][log_message][124]: "GET /api/auth/verify HTTP/1.1" 200 54
+[DEBUG][ 2018-06-09 19:31:58,124][utils.py][utils][execute][90]: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[DEBUG][ 2018-06-09 19:31:58,124][utils.py][utils][execute][90]: (0.000) SELECT VERSION(); args=None
+[DEBUG][ 2018-06-09 19:31:58,203][utils.py][utils][execute][90]: (0.010) SHOW FULL TABLES; args=None
+[DEBUG][ 2018-06-09 19:31:58,203][utils.py][utils][execute][90]: (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[DEBUG][ 2018-06-09 19:32:16,655][utils.py][utils][execute][90]: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[DEBUG][ 2018-06-09 19:32:16,665][utils.py][utils][execute][90]: (0.010) SELECT VERSION(); args=None
+[DEBUG][ 2018-06-09 19:32:16,726][utils.py][utils][execute][90]: (0.000) SHOW FULL TABLES; args=None
+[DEBUG][ 2018-06-09 19:32:16,736][utils.py][utils][execute][90]: (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[DEBUG][ 2018-06-09 19:32:29,134][utils.py][utils][execute][90]: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[DEBUG][ 2018-06-09 19:32:29,134][utils.py][utils][execute][90]: (0.000) SELECT VERSION(); args=None
+[DEBUG][ 2018-06-09 19:32:29,194][utils.py][utils][execute][90]: (0.000) SHOW FULL TABLES; args=None
+[DEBUG][ 2018-06-09 19:32:29,194][utils.py][utils][execute][90]: (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[DEBUG][ 2018-06-09 19:32:31,115][utils.py][utils][execute][90]: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[DEBUG][ 2018-06-09 19:32:31,115][utils.py][utils][execute][90]: (0.000) SELECT VERSION(); args=None
+[DEBUG][ 2018-06-09 19:32:31,118][utils.py][utils][execute][90]: (0.001) SELECT `msys_user`.`user_id`, `msys_user`.`password`, `msys_user`.`nike_name`, `msys_user`.`avatar_url`, `msys_user`.`time_created`, `msys_user`.`gender`, `msys_user`.`email`, `msys_user`.`telphone` FROM `msys_user` WHERE (`msys_user`.`password` = '12345678' AND `msys_user`.`user_id` = 'test123'); args=(u'12345678', u'test123')
+[INFO][ 2018-06-09 19:32:31,119][basehttp.py][basehttp][log_message][124]: "GET /api/auth/verify HTTP/1.1" 200 76
+[DEBUG][ 2018-06-09 19:46:57,198][utils.py][utils][execute][90]: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[DEBUG][ 2018-06-09 19:46:57,200][utils.py][utils][execute][90]: (0.000) SELECT VERSION(); args=None
+[DEBUG][ 2018-06-09 19:46:57,201][utils.py][utils][execute][90]: (0.000) SELECT `msys_user`.`user_id`, `msys_user`.`password`, `msys_user`.`nike_name`, `msys_user`.`avatar_url`, `msys_user`.`time_created`, `msys_user`.`gender`, `msys_user`.`email`, `msys_user`.`telphone` FROM `msys_user` WHERE `msys_user`.`user_id` = 'test123'; args=(u'test123',)
+[INFO][ 2018-06-09 19:46:57,203][basehttp.py][basehttp][log_message][124]: "GET /api/users/test123 HTTP/1.1" 200 276
+[DEBUG][ 2018-06-09 19:48:10,183][utils.py][utils][execute][90]: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+[DEBUG][ 2018-06-09 19:48:10,183][utils.py][utils][execute][90]: (0.000) SELECT VERSION(); args=None
+[DEBUG][ 2018-06-09 19:48:10,186][utils.py][utils][execute][90]: (0.001) SELECT `msys_user`.`user_id`, `msys_user`.`password`, `msys_user`.`nike_name`, `msys_user`.`avatar_url`, `msys_user`.`time_created`, `msys_user`.`gender`, `msys_user`.`email`, `msys_user`.`telphone` FROM `msys_user` WHERE `msys_user`.`user_id` = 'test123'; args=(u'test123',)
+[INFO][ 2018-06-09 19:48:10,187][basehttp.py][basehttp][log_message][124]: "GET /api/users/test123 HTTP/1.1" 200 276

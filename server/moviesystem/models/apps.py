@@ -4,5 +4,5 @@ from __future__ import unicode_literals
 from django.apps import AppConfig
 
 
-class MoviesysmodelConfig(AppConfig):
-    name = 'movieSysModel'
+class ModelsConfig(AppConfig):
+    name = 'models'

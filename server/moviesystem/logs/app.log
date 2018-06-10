@@ -1,0 +1,13 @@
+[ERROR][ 2018-06-09 19:29:17,986][userservice.py][userservice][tokenVerifyUserServide][65]: Traceback (most recent call last):
+  File "D:\MyDocument\Projects\PythonProjects\Ticket-sale-system\server\moviesystem\services\userservice.py", line 55, in tokenVerifyUserServide
+    [flag, payload] = self.ulity.decodeTokenService(token)
+  File "D:\MyDocument\Projects\PythonProjects\Ticket-sale-system\server\moviesystem\models\ulity.py", line 38, in decodeTokenService
+    payload = jwt.decode(token, 'secret', audience='fengxinzi.pro', algorithms=['HS256'])
+  File "E:\Python27\lib\site-packages\jwt\api_jwt.py", line 89, in decode
+    self._validate_claims(payload, merged_options, **kwargs)
+  File "E:\Python27\lib\site-packages\jwt\api_jwt.py", line 125, in _validate_claims
+    self._validate_aud(payload, audience)
+  File "E:\Python27\lib\site-packages\jwt\api_jwt.py", line 189, in _validate_aud
+    raise InvalidAudienceError('Invalid audience')
+InvalidAudienceError: Invalid audience
+

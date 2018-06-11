@@ -15,14 +15,14 @@ Including another URLconf
 """
 from django.conf.urls import url
 
-from controlers.usercontroler import UserControler
+# from controlers.usercontroler import UserControler
 
-user_controler = UserControler()
+# user_controler = UserControler()
 
 urlpatterns = [
-    url(r'^api/auth/token_id$', user_controler.getTokenControler),
-    url(r'^api/auth/verify$', user_controler.tokenVerifyControler),
-    url(r'^api/users/register$', user_controler.registerControler),
-    url(r'^api/users/login$', user_controler.loginControler),
-    url(r'^api/users/(?P<user_id>[0-9A-Za-z]+$)$', user_controler.getUserByIdControler),
+    # url(r'^api/auth/token_id$', user_controler.getTokenControler),
+    # url(r'^api/auth/verify$', user_controler.tokenVerifyControler),
+    # url(r'^api/users/register$', user_controler.registerControler),
+    # url(r'^api/users/login$', user_controler.loginControler),
+    # url(r'^api/users/(?P<user_id>[0-9A-Za-z]+$)$', user_controler.getUserByIdControler),
 ]

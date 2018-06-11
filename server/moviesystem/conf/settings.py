@@ -125,7 +125,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = 'D:\MyDocument\Projects\PythonProjects\Ticket-sale-system\server\moviesystem\logs'
+STATIC_ROOT = 'D:\MyDocument\Project\My\Ticket-sale-system\server\moviesystem\logs'
 
 LOGGING = {
     'version': 1,
